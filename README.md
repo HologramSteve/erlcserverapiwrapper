@@ -1,5 +1,6 @@
 # PRC api wrapper
 This very simple api wrapper for ER:LC private servers lets you access a server's information with ease.
+___
 
 ## Installation
 ```bash
@@ -18,6 +19,7 @@ const client = new erlcapi.Client("your-server-key")
 ```
 
 You can now use the api!
+___
 
 ## Usage
 You may call the following functions within the Client class:
@@ -35,6 +37,7 @@ You may call the following functions within the Client class:
 | `runCommand(command)` | Execute a specific command on the server.                   |
 
 No parameters are needed unless using runCommand. All data is returned in JSON format. If you want to see an example output, look [here](https://apidocs.policeroleplay.community/for-developers/api-reference)
+___
 
 ## Notes
 This project is licensed under the "IDGAF" license. Anything from this project is free to use in any way. If you do use it, I'd find it cool if you'd lmk on discord (username is `hologramsteve`)
